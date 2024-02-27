@@ -35,7 +35,7 @@ If the library doesn't provide ES6 exports, I'm not sure if this'll work.
 2.4 Import your module with a ES6-style. `import {} from 'libraryAlias';`  
 2.5 If you'll need your module across servers, you'll need to SCP it there too.
 3. A CSS injector. Whenever the script 'style/stylesheet.js' is running, the stylesheets you define within will
-be injected into the window.
+be injected into the window. This is technically an exploit because it dodges the RAM cost.
 4. Minor tweaks to the linter, specifically allowing unused variable warnings to be silenced by prefixing with an _underscore.
 
 ## How to update my clone to the latest version of the template
