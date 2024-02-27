@@ -7,6 +7,7 @@
   "author": "Tanimodori",
   "devDependencies": {
     "@types/node": "^18.15.3",
+    "@types/react": "^18.2.57",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "eslint": "^8.36.0",
